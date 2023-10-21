@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:serif;
+    color: yellow;
+}
+html, body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    background-color: black;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:40px;
+    position: relative;
+}
+.cursor{
+    width: 30px;
+    height: 30px;
+    background-color: yellow;
+    border-radius: 50%;
+    position: absolute;
+    mix-blend-mode: difference;
+    transition: all linear 0.1s;
+}
+#main:hover{
+    cursor: none;
+}

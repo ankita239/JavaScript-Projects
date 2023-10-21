@@ -1,0 +1,50 @@
+*{
+   font-family: 'Rubik', sans-serif;
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body,html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(80, 182, 80);
+}
+#card{
+    width: 270px;
+    height: 360px;
+    background-color: white;
+    border-radius: 10px;
+}
+#card img{
+    padding: 10px; 
+    border-radius: 15px;
+    width: 260px;
+    height: 195px;
+    object-fit: cover;
+    object-position: center;
+   
+}
+#card h1{
+  color: red;
+  margin: 5px;
+  font-size:170%;
+}
+button{
+    margin: 20px;
+    width: 150px;
+    height: 36px;
+    background-color: rgb(3, 164, 3);
+    border: 1px solid black;
+    border-radius: 3px;
+    font-weight: 400;
+}
+button:hover{
+    cursor: pointer;
+    opacity:0.85;
+}
